@@ -41,7 +41,8 @@ debugger should show that it's return address was corrupted to be 0xdeadbeef.
 
 Caveat
 ------
-* HC only looks 16 bytes from what it thinks is a stack canary.
+* HC looks 16 bytes from what it thinks is a stack canary, to make a guess
+  as to if the item is a return address or not.
 * HC requires root permissions to scan and manipulate a process' memory space.
 
 Reference
@@ -51,4 +52,5 @@ Reference
 Contact
 -------
 Matt Davis (enferex)
+
 https://github.com/enferex

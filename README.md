@@ -41,8 +41,7 @@ debugger should show that it's return address was corrupted to be 0xdeadbeef.
 
 Caveat
 ------
-* HC only looks 16 bytes from what it thinks is a stack canary.  In fact, the
-return address can be further from the canary, but HC illustrates the attack.
+* HC only looks 16 bytes from what it thinks is a stack canary.
 * HC requires root permissions to scan and manipulate a process' memory space.
 
 Reference

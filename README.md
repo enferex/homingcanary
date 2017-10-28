@@ -47,6 +47,7 @@ Caveat
 Reference
 ---------
 * https://en.wikipedia.org/wiki/Diversity_index#Shannon_index 
+* Associated article: POC||GTFO 0x16, page 49, https://www.alchemistowl.org/pocorgtfo/
 
 Contact
 -------

@@ -37,7 +37,7 @@ test will output its PID.
 * In another terminal, as root, run ```homingcanary -p <pid>``` where `<pid>` is
 the PID output from the test program.
 * The test program should crash if it has been compromised, running `test` via a
-debugger should show that it's return address was corrupted to be 0xdeadbeef.
+debugger should show that its return address was corrupted to be 0xdeadbeef.
 
 Caveat
 ------
